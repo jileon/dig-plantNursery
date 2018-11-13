@@ -1,0 +1,313 @@
+@charset "UTF-8";
+body {
+	font-family: "franklin-gothic-urw", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+header {
+	background-color: #708C93;
+}
+#banner {
+	background-color: #EBE1DF;
+}
+#pots {
+	background-color: #E0C0C9;
+}
+#instagram {
+	background-color: #EBE1DF;
+}
+#workshop {
+	background-color: #E0C0C9;
+}
+footer {
+	background-color: #CEB452;
+}
+h1, h2, h3, h4, strong, figcaption {
+	font-family: "franklin-gothic-urw", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+}
+/*header*/
+
+header ul#social {
+	margin: 0;
+	padding: 0;
+}
+header ul#social li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+header .container {
+	padding: 1px 0;
+	position: relative;
+}
+/*banner*/
+
+h1 {
+	color: #2A2327;
+}
+figure {
+	position: relative;
+}
+figcaption {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+figcaption span {
+	color: white;
+	font-size: 24px;
+	line-height: 45px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
+figcaption span.spacer {
+	padding: 0 2px;
+	background: none;
+}
+#banner .container {
+	padding-bottom: 40px;
+}
+
+@media (max-width:450px) {
+figure {
+	position: relative;
+}
+figcaption {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+figcaption span {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+}
+figcaption span.spacer {
+	padding: 0 2px;
+	background: none;
+}
+}
+/*pots*/
+#pots h2 {
+	/*color:#5C8A95;*/
+	color: #708C93;
+	position: relative;
+	z-index: 1;
+}
+#pots img {
+	margin: 10px auto 10px auto;
+}
+#pots {
+	position: relative;
+	padding-bottom: 80px;
+}
+#tagline {
+	position: absolute;
+	bottom: -25px;
+	right: 0px;
+	font-size: 100px;
+	line-height: 1;
+	text-align: right;
+	color: #CEB452;
+}
+
+@media (max-width:450px) {
+#tagline {
+	position: absolute;
+	bottom: -25px;
+	right: 0px;
+	font-size: 75px;
+	line-height: 1;
+	text-align: right;
+	color: #CEB452;
+}
+}
+/*instagram*/
+#instagram h2 {
+	color: #E46A78;
+}
+#instagram img {
+	border: 10px double #CEB452;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+#instagram1 {
+	position: relative;
+}
+#instagram2 {
+	position: relative;
+}
+#instagram3 {
+	position: relative;
+	left: 40px;
+}
+#instagram4 {
+	position: relative;
+	top: 80px;
+}
+#instagram5 {
+	position: relative;
+}
+#instagram6 {
+	position: relative;
+}
+#instagram7 {
+	position: relative;
+}
+}
+
+@media (min-width: 992px) {
+#instagram1 {
+	position: relative;
+}
+#instagram2 {
+	position: relative;
+}
+#instagram3 {
+	position: relative;
+}
+#instagram4 {
+	position: relative;
+}
+#instagram5 {
+	position: relative;
+}
+#instagram6 {
+	position: relative;
+}
+#instagram7 {
+	position: relative;
+}
+}
+
+@media (max-width: 767px) {
+header #logo {
+	display: block;
+	margin: 0 auto;
+}
+header ul#social {
+	text-align : center;
+}
+header #address {
+	text-align: center;
+	line-height: 2;
+}
+header .container {
+	padding: 15px 0;
+}
+}
+
+@media (min-width: 768px) {
+ul#social {
+	position: absolute;
+	top: 40px;
+	right: 0px;
+}
+#address {
+	font-size: 16px;
+	position: absolute;
+	bottom: 40px;
+	right: 0px;
+}
+}
+/*workshop*/
+
+#workshop h2 {
+	color: #708C93;
+}
+#workshop .container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#workshop p {
+	font-size: 23px;
+}
+/*
+#workshop a:link {
+	color:#E46A78;
+}
+
+#workshop a:visited {
+	color:#E46A78;
+}
+
+#workshop a:hover {
+	color:#CEB452;
+}
+
+#workshop a:link {
+	color:#E46A78;
+}
+*/
+
+
+/*footer*/
+footer ul.social {
+	margin: 0;
+	padding: 0;
+}
+footer ul.social li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#asterisk {
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	font-size: 100px;
+	line-height: 1;
+	color: #CEB452;
+}
+footer .container {
+	padding-top: 40px;
+	padding-bottom: 40 px;
+	position: relative;
+}
+#grain {
+	position: absolute;
+	top: -20px;
+	left: 590px;
+	font-size: 100px;
+	line-height: 1;
+	color: #CEB452;
+	z-index: 2;
+}
+#pots .container {
+	position: relative;
+	z-index: 1;
+}
+/*links*/
+a:link {
+	color: #E46A78;
+}
+a:visited {
+	color: #E46A78;
+}
+a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+a:link {
+	color: #E46A78;
+}
+
+@media (max-width:600px) {
+#grain {
+	position: absolute;
+	top: -20px;
+	left: 5px;
+	font-size: 50px;
+	line-height: 1;
+	color: #CEB452;
+}
+}
